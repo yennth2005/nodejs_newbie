@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yennth2005/nodejs_newbie.git"
+  },
+  "keywords": [
+    "nodejs",
+    "blog",
+    "nodejs",
+    "blog"
+  ],
+  "author": "yennth71",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yennth2005/nodejs_newbie/issues"
+  },
+  "homepage": "https://github.com/yennth2005/nodejs_newbie#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
