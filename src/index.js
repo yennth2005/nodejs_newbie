@@ -26,13 +26,20 @@ app.set('views', path.join(__dirname, 'resources/views')); // Ensure this line u
 
 // Route
 app.get('/', (req, res) => {
-  console.log('Rendering home view');
+  // console.log('Rendering home view');
   res.render('home'); // Ensure `home.handlebars` exists in the views directory
 });
 app.get('/news', (req, res) => {
-  console.log('Rendering home view');
+  // console.log('Rendering home view');
   res.render('news'); // Ensure `home.handlebars` exists in the views directory
 });
+app.get('/search', (req, res) => {
+  // console.log('Rendering home view');
+  res.render('search'); // Ensure `home.handlebars` exists in the views directory
+});
+app.post('/search',(req,res) => {
+  res.render('search');
+})
 
 // Start server
 app.listen(port, () => {
